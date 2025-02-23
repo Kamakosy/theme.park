@@ -2,7 +2,7 @@
 :root {
     --main-bg-color: url(/css/addons/unraid/login-page/fallout/wallpaper/rocky-wall.png),
     url(/css/addons/unraid/login-page/fallout/wallpaper/terminal2.jpg) center center/cover no-repeat fixed;
-    --logo: url(/css/addons/unraid/login-page/fallout/logo/vault-tec_green.png) center no-repeat;
+    --logo: url(https://drive.seido.site/api/assets/931c1ec0-0c2e-42b7-bea0-aecc007974f7/original?key=NAGrJRGToEL_4irU5SQrr8ZjoLiyWcdnJzWDsRo46ydovc_zjJ_PAOiNgnYPeaYJVyA&c=trVwByb499g7Njkvoc9vbBP58iQ%3D) center no-repeat;
     --text-color: #14F074;
     --input-color: #14F074;
     --link-color: #14F074;
@@ -15,49 +15,6 @@
     --input-font: 'Share Tech Mono', monospace;
     --text-font: 'Share Tech Mono', monospace;
     --div-background-color-15: rgba(0, 0, 0, 0.25);
-.backdropImage {
-  display: none !important;
-}
-
-.headerTop {
-  position: relative;
-}
-
-.headerTop::before {
-  content: "";
-  position: absolute;
-  top: 0;
-  left: 0;
-  right: 0;
-  bottom: 0;
-  background-image: none;
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-position: center;
-  opacity: 0.1; /* Adjust transparency (0 = fully transparent, 1 = fully opaque) */
-  z-index: -1; /* Ensure it stays behind the content */
-}
-
-
-.pageTitleWithDefaultLogo {
-  background-image: none !important;
-  opacity: 0.50
-}
-
-#loginPage {
-  background-image: url("https://drive.seido.site/api/assets/931c1ec0-0c2e-42b7-bea0-aecc007974f7/original?key=NAGrJRGToEL_4irU5SQrr8ZjoLiyWcdnJzWDsRo46ydovc_zjJ_PAOiNgnYPeaYJVyA&c=trVwByb499g7Njkvoc9vbBP58iQ%3D") !important;
-}
-
-.backdropImage {
-  display: none;
-}
-
-.backgroundContainer {
-  background-color: rgba(0, 0, 0, 0);
-  background-image: url('https://drive.seido.site/api/assets/931c1ec0-0c2e-42b7-bea0-aecc007974f7/original?key=NAGrJRGToEL_4irU5SQrr8ZjoLiyWcdnJzWDsRo46ydovc_zjJ_PAOiNgnYPeaYJVyA&c=trVwByb499g7Njkvoc9vbBP58iQ%3D');
-  filter: blur(20px);
-  background-size: cover;
-}
     /* Replace the variables if you have a dark background  */
     /* Light colors for dark backgrounds */
     /*
