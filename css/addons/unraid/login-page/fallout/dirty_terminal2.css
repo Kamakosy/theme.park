@@ -1,6 +1,6 @@
 @import url("/css/addons/unraid/login-page/fallout/fallout-base.css");
 :root {
-    --main-bg-color: url(/css/addons/unraid/login-page/fallout/wallpaper/rocky-wall.png),
+    --main-bg-color: url(/css/addons/unraid/login-page/fallout/wallpaper/dribbble_concept_01_2.gif),
     url(https://drive.seido.site/api/assets/931c1ec0-0c2e-42b7-bea0-aecc007974f7/original?key=NAGrJRGToEL_4irU5SQrr8ZjoLiyWcdnJzWDsRo46ydovc_zjJ_PAOiNgnYPeaYJVyA&c=trVwByb499g7Njkvoc9vbBP58iQ%3D) center center/cover no-repeat fixed;
     --logo: url(https://drive.seido.site/api/assets/931c1ec0-0c2e-42b7-bea0-aecc007974f7/original?key=NAGrJRGToEL_4irU5SQrr8ZjoLiyWcdnJzWDsRo46ydovc_zjJ_PAOiNgnYPeaYJVyA&c=trVwByb499g7Njkvoc9vbBP58iQ%3D) center no-repeat;
     --text-color: #14F074;
